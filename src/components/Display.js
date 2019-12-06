@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 //import Button from "./Button";
 
-function Display() {
-  const [ball, setBall] = useState(0);
-  const [strike, setStrike] = useState(0);
-  
+function Display(props) {
   return (
-    
-  )
-
-
+    <div>
+      <Display>{props.value}</Display>
+    </div>
+  );
 }
 
 export default Display;

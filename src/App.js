@@ -1,13 +1,11 @@
 import React from "react";
 import "./App.css";
-import Display from "./components/Display";
-import Dashboard from "./components/Dashboard";
+import Scoreboard from "./components/Scoreboard";
 
 function App() {
   return (
     <div className="App">
-      <Display />
-      <Dashboard />
+      <Scoreboard />
     </div>
   );
 }
